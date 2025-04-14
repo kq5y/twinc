@@ -18,8 +18,8 @@ importers:
         specifier: ^6.30.0
         version: 6.30.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       twinc-core-ics-creator:
-        specifier: ^0.1.7
-        version: 0.1.7
+        specifier: github:kq5y/twinc-core#c4b34a0afef0be6c6d5c55d7fd676194ce58d07e
+        version: https://codeload.github.com/kq5y/twinc-core/tar.gz/c4b34a0afef0be6c6d5c55d7fd676194ce58d07e
     devDependencies:
       '@biomejs/biome':
         specifier: ^1.9.4
@@ -1529,8 +1529,9 @@ packages:
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
-  twinc-core-ics-creator@0.1.7:
-    resolution: {integrity: sha512-O0pgzeCNQPzi3cWg8n9NBZ5ojsHtJnq+dmlWLcaojlRK+ui5hb0+o7yTmhtXCFfF6MFo93BHRTjvMISbK7NN3A==}
+  twinc-core-ics-creator@https://codeload.github.com/kq5y/twinc-core/tar.gz/c4b34a0afef0be6c6d5c55d7fd676194ce58d07e:
+    resolution: {tarball: https://codeload.github.com/kq5y/twinc-core/tar.gz/c4b34a0afef0be6c6d5c55d7fd676194ce58d07e}
+    version: 0.1.7
 
   typescript@5.8.3:
     resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
@@ -3221,7 +3222,7 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  twinc-core-ics-creator@0.1.7: {}
+  twinc-core-ics-creator@https://codeload.github.com/kq5y/twinc-core/tar.gz/c4b34a0afef0be6c6d5c55d7fd676194ce58d07e: {}
 
   typescript@5.8.3: {}
 

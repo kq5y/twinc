@@ -17,6 +17,7 @@ const DEBUG_MODE = false;
 
 function App() {
   const [noDeadlines, setNoDeadlines] = useState(false);
+  const [combineSameCourse, setCombineSameCourse] = useState(false);
 
   const processFileContent = async (fileContent: string) => {
     if (fileContent) {
@@ -25,8 +26,13 @@ function App() {
     }
   };
 
-  const onCheckboxChanged = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleNoDeadlinesChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setNoDeadlines(e.target.checked);
+  };
+  const handleCombineSameCourseChange = (
+    e: React.ChangeEvent<HTMLInputElement>,
+  ) => {
+    setCombineSameCourse(e.target.checked);
   };
 
   const readFile = (file: File): Promise<string> => {
@@ -64,16 +70,30 @@ function App() {
       <p>TWINSまたはKdBもどきのCSVファイルを選択してください</p>
       <h4>詳しい使い方は下にスクロールして、Helpを参照してください</h4>
       <FileSelector onFileChange={onFileSelected} />
-      <input
-        id="includeDeadlines"
-        type="checkbox"
-        name="includeDeadlines"
-        checked={noDeadlines}
-        onChange={onCheckboxChanged}
-      />
-      <label htmlFor="includeDeadlines">
-        事前登録・履修登録締切日を追加しない
-      </label>
+      <div>
+        <input
+          id="includeDeadlines"
+          type="checkbox"
+          name="includeDeadlines"
+          checked={noDeadlines}
+          onChange={handleNoDeadlinesChange}
+        />
+        <label htmlFor="includeDeadlines">
+          事前登録・履修登録締切日を追加しない
+        </label>
+      </div>
+      <div>
+        <input
+          id="combineSameCourse"
+          type="checkbox"
+          name="combineSameCourse"
+          checked={combineSameCourse}
+          onChange={handleCombineSameCourseChange}
+        />
+        <label htmlFor="combineSameCourse">
+          連続する授業を1つのイベントにまとめる
+        </label>
+      </div>
       <SmallHelp />
       <Help />
       <Footer />
