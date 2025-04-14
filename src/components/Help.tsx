@@ -1,4 +1,3 @@
-import React from "react";
 import download from "../assets/img/download.webp";
 import twinc1 from "../assets/img/twinc1.webp";
 import twinc2 from "../assets/img/twinc2.webp";

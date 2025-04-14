@@ -1,4 +1,3 @@
-import React from "react";
 import updateDate from "./updateDate.json";
 
 import { contributorLinkStyle, footerStyle } from "./styles";

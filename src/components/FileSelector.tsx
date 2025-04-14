@@ -1,4 +1,3 @@
-import React from "react";
 import { fileSelectorStyle } from "./styles";
 
 interface FileSelectorProps {

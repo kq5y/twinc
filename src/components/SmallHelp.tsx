@@ -1,4 +1,3 @@
-import React from "react";
 export const SmallHelp = () => {
   return (
     <div className="notice">
