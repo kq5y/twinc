@@ -34,14 +34,13 @@ export const coreStyle = css`
 `;
 
 export const fileSelectorStyle = css`
+  margin-top: 0.5rem;
+
   label > input {
     display: none;
   }
-  label {
-    margin-bottom: 1rem;
-  }
 
-  #fileUpload {
+  label {
     position: center;
     white-space: nowrap;
     width: 12rem;
@@ -65,12 +64,52 @@ export const fileSelectorStyle = css`
     padding-right: 0.5%;
   }
 
-  #fileUpload:hover {
+  label:hover {
     background-color: #5ecfd1;
     box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
     color: #fff;
     transform: translateY(-7px);
   }
+`;
+
+export const buttonStyle = css`
+  position: center;
+  white-space: nowrap;
+  width: 12rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.1%;
+  font-weight: 400;
+  line-height: 2.5rem;
+  background-color: #ccc;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin-top: 2.5%;
+  margin-bottom: 4.5%;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+
+  &:hover {
+    background-color: #5ecfd1;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+
+  &:disabled {
+    background-color: #ccc;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    color: #666;
+    cursor: not-allowed;
+    transform: translateY(0px);
+    pointer-events: none;
+    transition: none;}
 `;
 
 export const contributorLinkStyle = css`

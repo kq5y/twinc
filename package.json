@@ -13,7 +13,8 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.30.0",
-    "twinc-core-ics-creator": "github:kq5y/twinc-core#c4b34a0afef0be6c6d5c55d7fd676194ce58d07e"
+    "twinc-core-ics-creator": "github:kq5y/twinc-core#29542493f65f288ad693d36cbdd271d7ffc9f52b",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",

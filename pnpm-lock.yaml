@@ -18,8 +18,11 @@ importers:
         specifier: ^6.30.0
         version: 6.30.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       twinc-core-ics-creator:
-        specifier: github:kq5y/twinc-core#c4b34a0afef0be6c6d5c55d7fd676194ce58d07e
-        version: https://codeload.github.com/kq5y/twinc-core/tar.gz/c4b34a0afef0be6c6d5c55d7fd676194ce58d07e
+        specifier: github:kq5y/twinc-core#29542493f65f288ad693d36cbdd271d7ffc9f52b
+        version: https://codeload.github.com/kq5y/twinc-core/tar.gz/29542493f65f288ad693d36cbdd271d7ffc9f52b
+      xlsx:
+        specifier: https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz
+        version: https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz
     devDependencies:
       '@biomejs/biome':
         specifier: ^1.9.4
@@ -1529,8 +1532,8 @@ packages:
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
-  twinc-core-ics-creator@https://codeload.github.com/kq5y/twinc-core/tar.gz/c4b34a0afef0be6c6d5c55d7fd676194ce58d07e:
-    resolution: {tarball: https://codeload.github.com/kq5y/twinc-core/tar.gz/c4b34a0afef0be6c6d5c55d7fd676194ce58d07e}
+  twinc-core-ics-creator@https://codeload.github.com/kq5y/twinc-core/tar.gz/29542493f65f288ad693d36cbdd271d7ffc9f52b:
+    resolution: {tarball: https://codeload.github.com/kq5y/twinc-core/tar.gz/29542493f65f288ad693d36cbdd271d7ffc9f52b}
     version: 0.1.7
 
   typescript@5.8.3:
@@ -1614,6 +1617,12 @@ packages:
 
   wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
+
+  xlsx@https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz:
+    resolution: {tarball: https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz}
+    version: 0.20.3
+    engines: {node: '>=0.8'}
+    hasBin: true
 
   yallist@3.1.1:
     resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==}
@@ -3222,7 +3231,7 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  twinc-core-ics-creator@https://codeload.github.com/kq5y/twinc-core/tar.gz/c4b34a0afef0be6c6d5c55d7fd676194ce58d07e: {}
+  twinc-core-ics-creator@https://codeload.github.com/kq5y/twinc-core/tar.gz/29542493f65f288ad693d36cbdd271d7ffc9f52b: {}
 
   typescript@5.8.3: {}
 
@@ -3274,6 +3283,8 @@ snapshots:
   whatwg-mimetype@3.0.0: {}
 
   wrappy@1.0.2: {}
+
+  xlsx@https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz: {}
 
   yallist@3.1.1: {}
 
