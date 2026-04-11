@@ -2,7 +2,6 @@
   "name": "twinc",
   "version": "0.1.0",
   "homepage": "./",
-  "packageManager": "pnpm@10.28.0",
   "private": true,
   "scripts": {
     "dev": "vite",
@@ -42,8 +41,6 @@
   },
   "pnpm": {
     "onlyBuiltDependencies": [
-      "@biomejs/biome",
-      "esbuild",
       "twinc-core-ics-creator"
     ]
   }
