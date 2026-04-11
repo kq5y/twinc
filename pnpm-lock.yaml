@@ -18,8 +18,8 @@ importers:
         specifier: ^6.30.0
         version: 6.30.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       twinc-core-ics-creator:
-        specifier: github:kq5y/twinc-core#29542493f65f288ad693d36cbdd271d7ffc9f52b
-        version: https://codeload.github.com/kq5y/twinc-core/tar.gz/29542493f65f288ad693d36cbdd271d7ffc9f52b
+        specifier: github:kq5y/twinc-core#df0aecbfb7de7ae23ca9f6a16356c2d509649139
+        version: https://codeload.github.com/kq5y/twinc-core/tar.gz/df0aecbfb7de7ae23ca9f6a16356c2d509649139
       xlsx:
         specifier: https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz
         version: https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz
@@ -1532,9 +1532,9 @@ packages:
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
-  twinc-core-ics-creator@https://codeload.github.com/kq5y/twinc-core/tar.gz/29542493f65f288ad693d36cbdd271d7ffc9f52b:
-    resolution: {tarball: https://codeload.github.com/kq5y/twinc-core/tar.gz/29542493f65f288ad693d36cbdd271d7ffc9f52b}
-    version: 0.1.7
+  twinc-core-ics-creator@https://codeload.github.com/kq5y/twinc-core/tar.gz/df0aecbfb7de7ae23ca9f6a16356c2d509649139:
+    resolution: {tarball: https://codeload.github.com/kq5y/twinc-core/tar.gz/df0aecbfb7de7ae23ca9f6a16356c2d509649139}
+    version: 0.2.5
 
   typescript@5.8.3:
     resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
@@ -3231,7 +3231,7 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  twinc-core-ics-creator@https://codeload.github.com/kq5y/twinc-core/tar.gz/29542493f65f288ad693d36cbdd271d7ffc9f52b: {}
+  twinc-core-ics-creator@https://codeload.github.com/kq5y/twinc-core/tar.gz/df0aecbfb7de7ae23ca9f6a16356c2d509649139: {}
 
   typescript@5.8.3: {}
 
